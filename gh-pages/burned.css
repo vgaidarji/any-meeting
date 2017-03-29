@@ -1,0 +1,25 @@
+.image {
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+
+h2 {
+   position: absolute;
+   top: 250px;
+   left: 0;
+   width: 100%;
+}
+
+div {
+  text-align: center;
+  vertical-align: middle;
+}
+
+h2 span {
+   color: red;
+   font: bold 24px/45px Helvetica, Sans-Serif;
+   letter-spacing: -1px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px;
+}

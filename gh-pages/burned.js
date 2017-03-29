@@ -12,11 +12,11 @@ var queryString = function () {
     } else {
       query_string[pair[0]].push(decodeURIComponent(pair[1]));
     }
-  } 
+  }
   return query_string;
 }();
 
-window.onload = function () {
+window.onLoad = function () {
   document.getElementById("burned").innerHTML =
       "Burned " + queryString.time + " on " + queryString.meetings;
 };
